@@ -23,7 +23,8 @@ To store objects/strings in the keychain, use the folowing methods
 ```objective-c
 	
 	- (void)setObject:(NSString *)value forKey:(NSString *)key;
-	- (void)setObject:(NSString *)value forKey:(NSString *)key accessibleAttribute:(CFTypeRef)accessibleAttribute;
+	- (void)setObject:(NSString *)value forKey:(NSString *)key 
+					accessibleAttribute:(CFTypeRef)accessibleAttribute;
 	
 ```
 
